@@ -1,0 +1,73 @@
+A Personal Profile Website:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Profile</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+		
+		.profile-picture {
+			border-radius: 50%;
+			width: 200px;
+			height: 200px;
+			margin: 20px;
+		}
+		
+		.interests {
+			margin-top: 20px;
+		}
+		
+		.social-media {
+			margin-top: 20px;
+		}
+		
+		.achievements {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>About Me</h1>
+	<img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+	<p>Hello, my name is [Your Name] and I am a [Your Profession/Student]. I am passionate about learning and exploring new things.</p>
+	
+	<h2>Interests</h2>
+	<div class="interests">
+		<ul>
+			<li>Reading books</li>
+			<li>Playing football</li>
+			<li>Learning new programming languages</li>
+		</ul>
+	</div>
+	
+	<h2>Hobbies</h2>
+	<div class="hobbies">
+		<ul>
+			<li>Photography</li>
+			<li>Playing guitar</li>
+			<li>Traveling</li>
+		</ul>
+	</div>
+	
+	<h2>Achievements</h2>
+	<div class="achievements">
+		<ul>
+			<li>Completed a project on machine learning</li>
+			<li>Participated in a coding competition</li>
+			<li>Volunteered for a social cause</li>
+		</ul>
+	</div>
+	
+	<h2>Get in Touch</h2>
+	<div class="social-media">
+		<p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+		<p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">linkedin.com/in/your-linkedin-profile</a></p>
+		<p>Twitter: <a href="https://twitter.com/your-twitter-handle" target="_blank">@your-twitter-handle</a></p>
+	</div>
+</body>
+</html>
